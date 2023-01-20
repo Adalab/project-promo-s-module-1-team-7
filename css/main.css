@@ -27,14 +27,14 @@
 }
 
 .title-who {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+   
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     color: var(--verde-claro);
-    font-size: 1.9rem;
-    margin:2rem 4.95rem 0 4.75rem;
+    font-size: 1.8rem;
+    margin:2rem 3rem 0 3rem;
+    width: 100vw;
+    text-align: center;
 }
 
 .members-section {
