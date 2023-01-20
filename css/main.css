@@ -1,0 +1,18 @@
+:root {
+    --verde-oscuro: #099d8d;
+    --verde-claro: #14d9c4;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+}
+
+* {
+    font-size: 62.5%;
+}
+
+
+
