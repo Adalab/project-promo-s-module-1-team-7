@@ -30,7 +30,8 @@
    
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
-    color: var(--verde-claro);
+    color: var(--verde-oscuro);
+    font-weight: 500;
     font-size: 1.8rem;
     margin:2rem 3rem 0 3rem;
     width: 100vw;
