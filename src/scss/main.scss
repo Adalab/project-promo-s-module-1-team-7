@@ -1,0 +1,125 @@
+/*
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+
+:root {
+    --verde-oscuro: #099d8d;
+    --verde-claro: #14d9c4;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.team-name-box {
+    background-color: var(--verde-oscuro);
+}
+
+.team-name {
+    font-family: 'Rubik', sans-serif;
+    color: var(--blanco);
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.nav {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--verde-claro);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7rem;
+    color: var(--blanco);
+}
+
+.items-menu {
+    
+}
+
+
+.who-we-are-section {
+    width: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-who {
+   
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color: var(--verde-oscuro);
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin:2rem 3rem 0 3rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.members-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.photo-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 14rem;
+    width: 14rem;
+    border: var(--gris-claro) solid 0.4rem;
+    border-radius: 0.4rem;
+}
+
+
+.photo-member {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.title-members {
+    margin-top: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+.text-members {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color:  var(--gris-oscuro);
+    text-align: center;
+    margin: 1.5rem;
+    line-height: 1.4;
+ 
+}
+
+
+
+
+
