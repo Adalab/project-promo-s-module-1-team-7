@@ -30,12 +30,16 @@
 
 .team-name-box {
     background-color: var(--verde-oscuro);
+    height: 6rem;
+    padding: auto;
+    opacity: 90%;
 }
 
 .team-name {
     font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     color: var(--blanco);
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: center;
     padding: 1.5rem;
 }
@@ -43,6 +47,7 @@
 .nav {
     font-family: 'Rubik', sans-serif;
     background-color: var(--verde-claro);
+    opacity: 90%;
 }
 
 .menu {
@@ -50,15 +55,37 @@
     justify-content: space-around;
     padding: 0.7rem;
     color: var(--blanco);
+    list-style: none;
 }
 
 .items-menu {
-    
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--blanco);
+}
+
+.hero-image {
+    background-image: url("../images/hero.jpg");
+    background-color: #54585a;
+    background-size: cover;
+    height: 55vh;
+    transform: translate(0px, -90px);
+    position: relative;
+    z-index: -1;
+}
+
+.team-quote {
+    background-color: var(--blanco);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    width: 80vw;
+    height: 5rem;
+    margin: 0 auto;
 }
 
 
 .who-we-are-section {
-    width: auto; 
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -66,13 +93,13 @@
 }
 
 .title-who {
-   
+
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     color: var(--verde-oscuro);
     font-weight: 500;
     font-size: 1.8rem;
-    margin:2rem 3rem 0 3rem;
+    margin: 2rem 3rem 0 3rem;
     width: 100vw;
     text-align: center;
 }
@@ -112,14 +139,39 @@
 .text-members {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
-    color:  var(--gris-oscuro);
+    color: var(--gris-oscuro);
     text-align: center;
     margin: 1.5rem;
     line-height: 1.4;
- 
+
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--gris-claro);
+}
 
+.footer-menu {
+    list-style: none;
+    text-align: center;
+    padding: 2rem 0;
+}
 
+.footer-menu-items {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--gris-oscuro);
+    text-decoration: none;
 
+}
+
+.adalab-logo {
+    width: 5rem;
+}
