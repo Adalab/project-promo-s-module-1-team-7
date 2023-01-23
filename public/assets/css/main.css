@@ -86,7 +86,8 @@
 .title-members {
   margin-top: 1.5rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: var(--negro); }
 
 .text-members {
   font-family: 'Open Sans', sans-serif;
@@ -95,5 +96,17 @@
   text-align: center;
   margin: 1.5rem;
   line-height: 1.4; }
+
+.icons {
+  width: 14rem;
+  color: var(--verde-oscuro);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 6rem;
+  list-style: none; }
+
+.separador {
+  margin-right: 9px; }
 
 /*# sourceMappingURL=main.css.map */
