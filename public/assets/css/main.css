@@ -58,7 +58,7 @@ table {
   opacity: 90%; }
 
 .team-name {
-  font-family: "Rubik", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #ffffff;
   font-size: 1rem;
@@ -66,7 +66,7 @@ table {
   padding: 1.5rem; }
 
 .nav {
-  font-family: "Rubik", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #14d9c4;
   opacity: 90%; }
 
@@ -105,7 +105,7 @@ table {
   align-items: center; }
 
 .hero-quote-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center; }
@@ -121,19 +121,20 @@ table {
   text-align: center; }
 
 .who-we-are-section {
-  width: auto;
+  width: 100;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 4.5rem; }
 
 .title-who {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
-  color: var(--verde-oscuro);
+  color: #099d8d;
   font-weight: 500;
   font-size: 1.8rem;
-  margin: 2rem 3rem 0 3rem;
+  margin-bottom: 2rem;
   width: 100vw;
   text-align: center; }
 
@@ -142,6 +143,11 @@ table {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center; }
+  @media (min-width: 768px) {
+    .members-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; } }
 
 .photo-container {
   margin-top: 3rem;
@@ -151,7 +157,7 @@ table {
   align-items: center;
   height: 14rem;
   width: 14rem;
-  border: var(--gris-claro) solid 0.4rem;
+  border: #b8b8b9 solid 0.4rem;
   border-radius: 0.4rem; }
 
 .photo-member {
@@ -160,29 +166,59 @@ table {
 
 .title-members {
   margin-top: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
-  color: var(--negro); }
-
-.text-members {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
-  color: var(--gris-oscuro);
-  text-align: center;
-  margin: 1.5rem;
-  line-height: 1.4; }
-
-.icons {
-  width: 14rem;
-  color: var(--verde-oscuro);
+  color: #000000;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  font-size: 6rem;
+  justify-content: center;
+  width: 100vw; }
+  @media (min-width: 768px) {
+    .title-members {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding-left: 1rem; } }
+
+.text-members {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #54585a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+  line-height: 1.4; }
+  @media (min-width: 768px) {
+    .text-members {
+      text-align: left;
+      width: 60vw; } }
+
+.icons {
+  width: 100 vw;
+  color: #099d8d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.2rem;
   list-style: none; }
+  @media (min-width: 768px) {
+    .icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding-left: 1rem; } }
 
 .separador {
-  margin-right: 9px; }
+  margin-right: 8px; }
+
+.members-section-tablet {
+  flex-direction: column;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    .members-section-tablet {
+      width: 60%; } }
 
 .footer-line {
   height: 1px;
@@ -196,7 +232,7 @@ table {
   align-items: center; }
 
 .copyright {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 0.9rem;
   color: #b8b8b9;
   margin: 2rem 0; }
@@ -207,7 +243,7 @@ table {
   .footer-menu .footer-menu-item {
     padding: 0.2rem 0; }
     .footer-menu .footer-menu-item .footer-menu-item-link {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Rubik", sans-serif;
       font-size: 0.95rem;
       font-weight: 600;
       color: #54585a;
