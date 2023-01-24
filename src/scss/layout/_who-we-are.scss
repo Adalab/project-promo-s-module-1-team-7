@@ -1,0 +1,76 @@
+.who-we-are-section {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-who {
+
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color: var(--verde-oscuro);
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 2rem 3rem 0 3rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.members-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.photo-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 14rem;
+    width: 14rem;
+    border: var(--gris-claro) solid 0.4rem;
+    border-radius: 0.4rem;
+}
+
+
+.photo-member {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.title-members {
+    margin-top: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--negro)
+}
+
+.text-members {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: var(--gris-oscuro);
+    text-align: center;
+    margin: 1.5rem;
+    line-height: 1.4;
+}
+
+.icons {
+    width: 14rem;
+    color: var(--verde-oscuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 6rem;
+    list-style: none;
+}
+
+.separador {
+    margin-right: 9px;
+
+}

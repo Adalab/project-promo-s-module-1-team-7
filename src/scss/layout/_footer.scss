@@ -1,8 +1,29 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: var(--gris-claro);
+}
+
+.footer-menu {
+    list-style: none;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-menu-items {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: var(--gris-oscuro);
+    text-decoration: none;
+}
+
+.adalab-logo {
+    width: 5rem;
+}
+
