@@ -1,10 +1,114 @@
+
 .team-section {
-    font-family: 'Rubik', sans-serif;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.team-description {
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title-team {
+    font-family: $title-font;
     text-transform: uppercase;
-    color: var(--verde-oscuro);
+    color: $verde-claro;
     font-weight: 500;
     font-size: 1.8rem;
-    margin:2rem 3rem 0 3rem;
+    margin-bottom: 2rem ;
+    width: 100vw;
+    text-align: center;
+}
+
+.text {
+    font-family: $text-font;
+    font-size: $text-font-size;
+    color: $gris-oscuro;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.4;
+}
+
+.triangle {
+    position: relative;
+    transform: translate(1%, 50%) rotate(45deg); 
+    background: $blanco;
+    width: 20px;
+    height: 20px;
+}
+
+.values-section {
+    background-color: $gris-claro;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+
+    
+    @media (min-width: 768px) {
+        display: flex; 
+        flex-direction: row;
+        align-items: center; 
+
+        /*
+        .container {
+            
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+       */
+      }
+}
+
+.title-strenght {
+    font-family: $title-font;
+    text-transform: capitalize;
+    color: $verde-oscuro;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem ;
+    width: 100vw;
+    text-align: center;
+}
+
+.text-strenght {
+    @media (min-width: 768px) {
+        text-align: center;
+        word-wrap: normal; 
+    }
+}
+
+.text-weakness {
+    @media (min-width: 768px) {
+        text-align: center;
+        word-wrap: normal; 
+    }
+}
+
+.title-weakness {
+    font-family: $title-font;
+    text-transform: capitalize;
+    color: $verde-oscuro;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem ;
     width: 100vw;
     text-align: center;
 }
