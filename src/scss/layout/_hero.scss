@@ -1,18 +1,31 @@
+.hero {
+  height:60vh;
+}
+
 .hero-image {
     background-image: url("../images/hero.jpg");
     background-color: #54585a;
     background-size: cover;
-    height: 55vh;
-    transform: translate(0px, -90px);
+    height: 70vh;
+    transform: translate(0px, -160px);
     position: relative;
     z-index: -1;
   }
   
-  .team-quote {
-    background-color: var(--blanco);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
-    width: 80vw;
+  .hero-quote-box {
+    background-color: $blanco;
+    width: 90vw;
     height: 5rem;
     margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-quote-text {
+    font-family: $title-font;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
   }

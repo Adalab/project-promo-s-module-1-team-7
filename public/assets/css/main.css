@@ -52,52 +52,63 @@ table {
   border-spacing: 0; }
 
 .team-name-box {
-  background-color: var(--verde-oscuro);
-  height: 6rem;
+  background-color: #099d8d;
+  height: 4rem;
   padding: auto;
   opacity: 90%; }
 
 .team-name {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
-  color: var(--blanco);
-  font-size: 1.4rem;
+  color: #ffffff;
+  font-size: 1rem;
   text-align: center;
   padding: 1.5rem; }
 
 .nav {
-  font-family: 'Rubik', sans-serif;
-  background-color: var(--verde-claro);
+  font-family: "Rubik", sans-serif;
+  background-color: #14d9c4;
   opacity: 90%; }
 
 .menu {
   display: flex;
   justify-content: space-around;
-  padding: 0.7rem;
-  color: var(--blanco);
+  padding: 0.8rem;
+  color: #ffffff;
   list-style: none; }
 
 .items-menu {
   text-decoration: none;
-  font-size: 1.3rem;
-  color: var(--blanco); }
+  font-size: 0.95rem;
+  color: #ffffff; }
+
+.hero {
+  height: 60vh; }
 
 .hero-image {
   background-image: url("../images/hero.jpg");
   background-color: #54585a;
   background-size: cover;
-  height: 55vh;
-  transform: translate(0px, -90px);
+  height: 70vh;
+  transform: translate(0px, -160px);
   position: relative;
   z-index: -1; }
 
-.team-quote {
-  background-color: var(--blanco);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  width: 80vw;
+.hero-quote-box {
+  background-color: #ffffff;
+  width: 90vw;
   height: 5rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  bottom: 200px;
+  display: flex;
+  align-items: center; }
+
+.hero-quote-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center; }
 
 .team-section {
   font-family: 'Rubik', sans-serif;
@@ -173,28 +184,37 @@ table {
 .separador {
   margin-right: 9px; }
 
+.footer-line {
+  height: 1px;
+  width: 100vw;
+  background-color: #b8b8b9;
+  border: none; }
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
 .copyright {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
-  color: var(--gris-claro); }
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #b8b8b9;
+  margin: 2rem 0; }
 
 .footer-menu {
   list-style: none;
-  text-align: center;
-  padding: 2rem 0; }
-
-.footer-menu-items {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  color: var(--gris-oscuro);
-  text-decoration: none; }
+  text-align: center; }
+  .footer-menu .footer-menu-item {
+    padding: 0.2rem 0; }
+    .footer-menu .footer-menu-item .footer-menu-item-link {
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #54585a;
+      text-decoration: none; }
 
 .adalab-logo {
-  width: 5rem; }
+  width: 8.5rem;
+  margin: 3rem; }
 
 /*# sourceMappingURL=main.css.map */

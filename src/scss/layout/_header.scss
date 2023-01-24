@@ -1,35 +1,35 @@
 .team-name-box {
-  background-color: var(--verde-oscuro);
-  height: 6rem;
+  background-color: $verde-oscuro;
+  height: 4rem;
   padding: auto;
   opacity: 90%;
 }
 
 .team-name {
-  font-family: 'Rubik', sans-serif;
+  font-family: $text-font;
   font-weight: 400;
-  color: var(--blanco);
-  font-size: 1.4rem;
+  color: $blanco;
+  font-size: 1rem;
   text-align: center;
   padding: 1.5rem;
 }
 
 .nav {
-  font-family: 'Rubik', sans-serif;
-  background-color: var(--verde-claro);
+  font-family: $text-font;
+  background-color: $verde-claro;
   opacity: 90%;
 }
 
 .menu {
   display: flex;
   justify-content: space-around;
-  padding: 0.7rem;
-  color: var(--blanco);
+  padding: 0.8rem;
+  color: $blanco;
   list-style: none;
 }
 
 .items-menu {
   text-decoration: none;
-  font-size: 1.3rem;
-  color: var(--blanco);
+  font-size: 0.95rem;
+  color: $blanco;
 }
