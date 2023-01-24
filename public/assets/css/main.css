@@ -45,6 +45,16 @@
   padding: 0.7rem;
   color: var(--blanco); }
 
+.team-section {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  color: var(--verde-oscuro);
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin: 2rem 3rem 0 3rem;
+  width: 100vw;
+  text-align: center; }
+
 .who-we-are-section {
   width: auto;
   display: flex;
