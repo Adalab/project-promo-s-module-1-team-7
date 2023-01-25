@@ -235,18 +235,29 @@ table {
     .values-section {
       display: flex;
       flex-direction: row;
-      align-items: center;
-      /*
-        .container {
-            
-            padding-left: 20px;
-            padding-right: 20px;
-            align-items: center;
-            justify-content: space-between;
-        }
-       */ } }
+      align-items: flex-start;
+      justify-content: space-evenly;
+      padding-top: 3.5rem;
+      padding-bottom: 3rem; } }
 
-.title-strenght {
+@media (min-width: 768px) {
+  .container-weak {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align: center;
+    padding-left: 3rem;
+    padding-right: 3rem; } }
+
+@media (min-width: 768px) {
+  .container-strength {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    padding-right: 3rem; } }
+
+.title-strength {
   font-family: "Rubik", sans-serif;
   text-transform: capitalize;
   color: #099d8d;
@@ -257,12 +268,7 @@ table {
   text-align: center; }
 
 @media (min-width: 768px) {
-  .text-strenght {
-    text-align: center;
-    word-wrap: normal; } }
-
-@media (min-width: 768px) {
-  .text-weakness {
+  .text-strength {
     text-align: center;
     word-wrap: normal; } }
 
@@ -276,6 +282,12 @@ table {
   width: 100vw;
   text-align: center; }
 
+@media (min-width: 768px) {
+  .text-weakness {
+    text-align: center;
+    word-wrap: normal; } }
+
+/* VERSION TABLET Y PANTALLA*/
 .who-we-are-section {
   width: 100;
   display: flex;
