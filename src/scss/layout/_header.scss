@@ -1,8 +1,7 @@
 .team-name-box {
-  background-color: $verde-oscuro;
+  background-color: #099d8ed2;
   height: 4rem;
   padding: auto;
-  opacity: 90%;
 }
 
 .team-name {
@@ -16,8 +15,7 @@
 
 .nav {
   font-family: $text-font;
-  background-color: $verde-claro;
-  opacity: 90%;
+  background-color: #14d9c5e0;
 }
 
 .menu {
@@ -40,13 +38,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $verde-oscuro;
-    opacity: 90%;
+    background-color: #099d8ed2;
     padding: 0 1rem;
   }
 
   .team-name-box {
     height: 4rem;
+    background-color: #099d8e00;
 
     .team-name {
       padding-left: 0.8rem;
@@ -55,7 +53,7 @@
 
   .nav {
     font-family: $text-font;
-    background-color: $verde-oscuro;
+    background-color: #099d8e00;
   }
 
   .menu-item {
@@ -66,7 +64,6 @@
 /*DESKTOP VERSION*/
 @media all and (min-width: 1200px) {
   .header {
-   /*  max-width: 1200px; */
     padding: 0 10rem;
   }
 }
