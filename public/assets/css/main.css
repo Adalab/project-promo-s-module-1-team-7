@@ -104,7 +104,7 @@ table {
 /*DESKTOP VERSION*/
 @media all and (min-width: 1200px) {
   .header {
-    max-width: 1200px;
+    /*  max-width: 1200px; */
     padding: 0 10rem; } }
 
 .hero {
@@ -406,6 +406,7 @@ table {
   margin: 2rem 0; }
 
 .footer-menu {
+  transform: translate(10px 0px);
   list-style: none;
   text-align: center; }
   .footer-menu .footer-menu-item {
@@ -429,6 +430,10 @@ table {
     justify-content: space-between; }
   .footer-line {
     margin: 2rem 0; }
+  .footer-info {
+    background-color: aqua;
+    display: flex;
+    /*  flex-direction: row-; */ }
   .copyright {
     margin-left: 2rem;
     margin-top: 2rem; }
