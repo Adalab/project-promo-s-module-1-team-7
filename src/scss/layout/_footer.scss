@@ -19,6 +19,7 @@
 }
 
 .footer-menu {
+  transform: translate(10px 0px);
   list-style: none;
   text-align: center;
 
@@ -50,6 +51,12 @@
 
     .footer-line{
         margin: 2rem 0;
+    }
+
+    .footer-info {
+      background-color: aqua;
+      display: flex;
+     /*  flex-direction: row-; */
     }
     
     .copyright{

@@ -2,67 +2,166 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/37d8c91686.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>Document</title>
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+    <header class="header">
+      <div class="team-name-box">
+        <h2 class="team-name">NOMBRE DEL GRUPO</h2>
+      </div>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-item-link" href="#">EQUIPO</a></li>
+          <li class="menu-item"><a class="menu-item-link" href="#">QUIENES SOMOS</a></li>
+          <li class="menu-item"><a class="menu-item-link" href="#">CONTACTO</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </nav>
+    </header>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+    <main class="main">
+       <main>
+          <section class="hero">
+            <div class="hero-image">
+          </div>
+          <div class="hero-quote-box">
+              <p class="hero-quote-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </section>
+       </main>
+      <main>
+          <section class="team-section">
+            
+              <article class="team-description">
+                  <div class="team"> <!--hace falta??-->
+                    <h2 class="title-team">equipo</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum, consequat phasellus ligula tincidunt ac nisl dui, semper placerat volutpat auctor erat cursus torquent. Bibendum sed dui mauris integer at ullamcorper congue class, volutpat tincidunt porttitor egestas suspendisse lectus proin, sodales tortor turpis nisl libero feugiat tempus.</p>
+                    <p class="text">Viverra egestas dui accumsan placerat mi senectus dapibus cursus, penatibus ad sociosqu facilisis auctor porta curabitur laoreet scelerisque, proin imperdiet est mollis ultricies vitae arcu.</p> 
+                  </div>
+                </article>
 
-          </li>
-        </ul>
+                <div class="triangle"></div>
+
+              <article class="values-section">
+
+                <div class="container-strength" class="strength">
+                  <h3 class="title-strength" class="item">Fortalezas</h3>
+                  <p class="text" class="text-strength" class="item">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum, consequat phasellus ligula tincidunt ac nisl dui, semper placerat volutpat auctor erat cursus torquent.</p>
+                </div>
+
+                <div class="container-weakness" class="weakness">
+                  <h3 class="title-weakness" class="item">Debilidades</h3>
+                  <p class=text class="text-weakness" class="item">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum, consequat phasellus ligula tincidunt ac nisl dui, semper placerat volutpat auctor erat cursus torquent.</p>
+                </div>
+              </article>
+
+            </section>
       </main>
+      <main>
+          <section class="who-we-are-section">
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+                <h2 class="title-who">quiénes somos</h2>
 
-        </small>
-      </footer>
+                <article class="members-section">
+                    <div class="photo-container">
+                      <img class="photo-member" src="./assets/images/small.jpg" alt="foto de mi cara">
+                    </div>
+                    <div class="members-section-tablet">
+                      <h3 class="title-members">Patricia Becerra</h3>
+                      <p class="text-members">Praesent eget mauris ex. Aliquam fringilla dolor quam, id lobortis diam rutrum sed. Nulla malesuada commodo tortor, ut mattis neque ullamcorper sagittis. Proin aliquam purus non justo placerat pulvinar. Integer fermentu</p>
+                      <ul class="icons">
+                        <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-solid fa-envelope"></i></a></li>    
+                      </ul>
+                  </div>
+                </article>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+                <article class="members-section">
+                  <div class="photo-container">
+                    <img class="photo-member" src="./assets/images/small.jpg" alt="foto de mi cara">
+                  </div>
+                  <div class="members-section-tablet">
+                    <h3 class="title-members">Mariana</h3>
+                    <p class="text-members">Praesent eget mauris ex. Aliquam fringilla dolor quam, id lobortis diam rutrum sed. Nulla malesuada commodo tortor, ut mattis neque ullamcorper sagittis. Proin aliquam purus non justo placerat pulvinar. Integer fermentu</p>
+                    <ul class="icons">
+                      <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-brands fa-github-alt"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-solid fa-envelope"></i></a></li>    
+                    </ul>
+                  </div>
+                </article>  
+
+                <article class="members-section">
+                  <div class="photo-container">
+                    <img class="photo-member" src="./assets/images/small.jpg" alt="foto de mi cara">
+                  </div>
+                    <h3 class="title-members">Irene</h3>
+                    <p class="text-members">Praesent eget mauris ex. Aliquam fringilla dolor quam, id lobortis diam rutrum sed. Nulla malesuada commodo tortor, ut mattis neque ullamcorper sagittis. Proin aliquam purus non justo placerat pulvinar. Integer fermentu</p>
+                    <ul class="icons">
+                      <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-brands fa-github-alt"></i></a></li>
+                      <li><span class="separador">·</span><a><i class="fa-solid fa-envelope"></i></a></li>    
+                    </ul>
+                </article>
+
+                <article class="members-section">
+                  <div class="photo-container">
+                    <img class="photo-member" src="./assets/images/small.jpg" alt="foto de mi cara">
+                  </div>
+                      <h3 class="title-members">Olga</h3>
+                      <p class="text-members">Praesent eget mauris ex. Aliquam fringilla dolor quam, id lobortis diam rutrum sed. Nulla malesuada commodo tortor, ut mattis neque ullamcorper sagittis. Proin aliquam purus non justo placerat pulvinar. Integer fermentu</p>
+                      <ul class="icons">
+                        <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li><span class="separador">·</span><a><i class="fa-solid fa-envelope"></i></a></li>    
+                      </ul>
+                </article>
+            </section>
+      </main>
+    </main>
+    <footer class="footer">
+      <hr class="footer-line" />
+      <small class="copyright"> Nombre del grupo © 2023</small>
+      
+        <ul class="footer-menu">
+          <li class="footer-menu-item">
+            <a class="footer-menu-item-link" href="">EQUIPO</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-item-link" href="">QUIÉNES SOMOS</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-item-link" href="">CONTACTO</a>
+          </li>
+        </ul>
+        
+        <div class="footer-logo">
+          <img
+            class="adalab-logo"
+            src="./assets/images/logo-adalab.png"
+            alt="Logo de Adalab"
+          />
+        </div>
+    </footer>
+
   </body>
 </html>
