@@ -44,9 +44,9 @@
   /* TABLET VERSION */
 @media all and (min-width: 768px) {
     .footer {
-       /*  flex-direction: row;
+        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between; */
+        justify-content: space-between;
     }
 
     .footer-line{
@@ -54,11 +54,9 @@
     }
 
     .footer-info {
-/*       background-color: aqua; */
+      background-color: aqua;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
+     /*  flex-direction: row-; */
     }
     
     .copyright{
@@ -70,11 +68,6 @@
         text-align: right;
         order: 4;
         margin: 2rem;
-    }
-
-    .adalab-logo {
-/*       display: flex; */
-      order: -1;
     }
 }
 

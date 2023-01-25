@@ -1,6 +1,6 @@
 
 .team-section {
-    width: 100vw;
+    width: 100;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -9,10 +9,10 @@
 }
 
 .team-description {
-    width: 100vw;
+    width: 100;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -25,7 +25,7 @@
     font-weight: 500;
     font-size: 1.8rem;
     margin-bottom: 2rem ;
-    width: 100%;
+    width: 100vw;
     text-align: center;
 }
 
@@ -34,10 +34,11 @@
     font-size: $text-font-size;
     color: $gris-oscuro;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
+    margin: 1rem;
     line-height: 1.4;
-    width: 80%;
 }
 
 .triangle {
@@ -49,8 +50,8 @@
 }
 
 .values-section {
-    background-color: $gris-de-fondo;
-    width: 100vw;
+    background-color: $gris-claro;
+    width: 100;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -68,11 +69,12 @@
     }
 }
 
-.container-weakness {
+.container-weak {
     @media (min-width: 768px) {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align: center;
         padding-left: 3rem;
         padding-right: 3rem;
         }
@@ -81,8 +83,8 @@
 .container-strength {
     @media (min-width: 768px) {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding-left: 3rem;
         padding-right: 3rem;
         }
@@ -96,6 +98,7 @@
     font-weight: 500;
     font-size: 1.8rem;
     margin-bottom: 1rem ;
+    width: 100vw;
     text-align: center;
 }
 
@@ -113,6 +116,7 @@
     font-weight: 500;
     font-size: 1.8rem;
     margin-bottom: 1rem ;
+    width: 100vw;
     text-align: center;
 }
 
