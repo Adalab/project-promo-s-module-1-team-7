@@ -96,10 +96,6 @@ table {
 /*DESKTOP VERSION*/
 @media all and (min-width: 1200px) {
   .header {
-<<<<<<< HEAD
-    /*  max-width: 1200px; */
-=======
->>>>>>> refs/remotes/origin/main
     padding: 0 10rem; } }
 
 .hero {
@@ -496,15 +492,6 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; }
-<<<<<<< HEAD
-  .footer-line {
-    margin: 2rem 0; }
-  .footer-info {
-    background-color: aqua;
-    display: flex;
-    /*  flex-direction: row-; */ }
-=======
->>>>>>> refs/remotes/origin/main
   .copyright {
     margin-left: 2rem;
     margin-top: 2rem; }
