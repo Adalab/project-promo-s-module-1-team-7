@@ -14,8 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .title-team {
@@ -33,11 +32,8 @@
     font-family: $text-font;
     font-size: $text-font-size;
     color: $gris-oscuro;
-    display: flex;
-    justify-content: center;
     text-align: center;
     line-height: 1.4;
-    width: 80%;
 }
 
 .triangle {

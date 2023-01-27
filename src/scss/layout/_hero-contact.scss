@@ -1,0 +1,13 @@
+.hero-contact {
+  height:60vh;
+}
+
+.hero-contact-image {
+    background-image: url("../images/hero.jpg");
+    background-color: #54585a;
+    background-size: cover;
+    height: 70vh;
+    transform: translate(0px, -160px);
+    position: relative;
+    z-index: -1;
+  }

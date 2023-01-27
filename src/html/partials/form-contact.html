@@ -1,0 +1,27 @@
+        <article class="contact-description">
+              <h2 class="title-who">CONTACTO</h2>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum, consequat phasellus ligula tincidunt ac nisl dui, semper placerat volutpat auctor erat cursus torquent. Bibendum sed dui mauris integer at ullamcorper congue class, volutpat tincidunt porttitor egestas suspendisse lectus proin, sodales tortor turpis nisl libero feugiat tempus.</p>
+
+              <p class="form-conditions">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</p>
+          </article>
+
+
+          <fieldset class="form-titles" action="">
+            <label for="fullname">
+                Nombre completo <span class="asterisk">*</span>
+            </label>
+            <input class="form-input" type="text" id="fullname" name="fullname" placeholder="Nombre..." required />
+
+            <label for="email">
+                Email <span class="asterisk">*</span>
+            </label>
+            <input class="form-input" type="mailto" id="email" name="email" placeholder="nombre.apellidos@mail.com" required />
+
+            <label for="phone">Teléfono</label>
+            <input class="form-input" type="number" name="phone" id="phone" pattern="/^\+?(\d.*){3,}$/" placeholder="Ej: 123456789"/>
+
+            <label for="message">Mensaje <span class="asterisk">*</span></label>
+            <textarea class="form-input-message" id="message" name="message" rows="8" cols="auto" placeholder="¿Qué necesitas?"></textarea>
+            
+            <input type="submit" />
+          </fieldset>

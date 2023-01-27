@@ -1,3 +1,4 @@
+/* ESTILOS PAGINA PRINCIPAL */
 @import 'core/reset';
 @import 'core/variables';
 @import 'layout/header';
@@ -5,6 +6,11 @@
 @import 'layout/team';
 @import 'layout/who-we-are';
 @import 'layout/footer';
+
+/* ESTILOS PAGINA CONTACTO */
+@import 'layout/hero-contact';
+@import 'layout/form-contact';
+
 
 * {
   box-sizing: border-box;
