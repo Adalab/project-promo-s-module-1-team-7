@@ -1,21 +1,27 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
 .team-name-box {
-  background-color: #099d8ed2;
+  background-color: #099d8eef;
   height: 4rem;
   padding: auto;
 }
 
 .team-name {
-  font-family: $text-font;
+  font-family: $title-font;
   font-weight: 400;
   color: $blanco;
-  
   font-size: 1rem;
   text-align: center;
   padding: 1.5rem;
 }
 
 .nav {
-  font-family: $text-font;
+  font-family: $title-font;
+  font-weight: 400;
   background-color: #14d9c5e0;
 }
 

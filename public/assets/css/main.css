@@ -46,13 +46,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1; }
+
 .team-name-box {
-  background-color: #099d8ed2;
+  background-color: #099d8eef;
   height: 4rem;
   padding: auto; }
 
 .team-name {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   color: #ffffff;
   font-size: 1rem;
@@ -60,7 +65,8 @@ table {
   padding: 1.5rem; }
 
 .nav {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   background-color: #14d9c5e0; }
 
 .menu {
@@ -100,16 +106,14 @@ table {
     padding: 0 10rem; } }
 
 .hero {
-  height: 60vh; }
+  height: 50vh;
+  margin-bottom: 3rem; }
 
 .hero-image {
   background-image: url("../images/hero.jpg");
   background-color: #54585a;
   background-size: cover;
-  height: 70vh;
-  transform: translate(0px, -160px);
-  position: relative;
-  z-index: -1; }
+  height: 100%; }
 
 .hero-quote-box {
   background-color: #ffffff;
@@ -117,12 +121,12 @@ table {
   height: 5rem;
   margin: 0 auto;
   position: relative;
-  bottom: 200px;
+  bottom: 40px;
   display: flex;
   align-items: center; }
 
 .hero-quote-text {
-  font-family: "Rubik", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center; }
@@ -131,9 +135,6 @@ table {
 @media all and (min-width: 768px) {
   .hero {
     height: 50vh; }
-  .hero-image {
-    height: 55vh;
-    transform: translate(0px, -64px); }
   .hero-quote-box {
     width: 60vw;
     height: 5rem;
@@ -150,12 +151,7 @@ table {
 /*DESKTOP VERSION*/
 @media all and (min-width: 1200px) {
   .hero {
-    height: 60vh;
-    /*  max-width: 1200px; */ }
-  .hero-image {
-    /* max-width: 1200px; */
-    height: 70vh;
-    transform: translate(0px, -64px); }
+    height: 60vh; }
   .hero-quote-box {
     width: 45vw;
     height: 5rem;
