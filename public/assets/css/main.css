@@ -476,10 +476,6 @@ table {
 
 /* TABLET VERSION */
 @media all and (min-width: 768px) {
-  .footer {
-    /*  flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between; */ }
   .footer-line {
     margin: 2rem 0; }
   .footer-info {
