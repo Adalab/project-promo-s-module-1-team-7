@@ -1,11 +1,25 @@
 .contact-description{
     padding: 2rem;
+
+    @media all and (min-width: 768px) {
+        padding: 0 9rem 5rem 9rem;
+        text-align: center;
+    }
+
+    @media all and (min-width: 1200px) {
+        padding: 0 20rem 5rem 20rem;
+        text-align: center;
+    }
 }
 
 .form-conditions{
     padding-top: 2rem;
     font-family: $text-font;
     font-size: 0.65rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 0.75rem;
+    }
 }
 
 .asterisk {
@@ -18,19 +32,104 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: flex-start; */
     width: 85vw;
     margin: 0 auto;
+
+     @media all and (min-width: 768px) {
+        padding: 0 6rem;
+    }
+
+    @media all and (min-width: 1200px) {
+        padding: 0 14rem;
+        font-size: 0.9rem;
+    }
 }
 
 .form-input {
     padding-left: 1rem;
     height: 2rem;
     margin: 0.3rem 0 1rem 0;
-    color: $gris-de-fondo;
+    border: solid 0.1rem $gris-claro;
+
+    &:focus {
+        background-color: $gris-de-fondo;
+    }
 }
 
 .form-input-message {
+    font-family: $text-font;
     resize: none;
+    padding: 0.5rem 0 0 1rem;
+    margin: 0.3rem 0 1rem 0;
+    border: solid 0.1rem $gris-claro;
+
+    &:focus {
+        background-color: $gris-de-fondo;
+    }
+}
+
+.button-box {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media all and (min-width: 768px) {
+        display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+}
+
+.form-input-button {
+    font-family: $text-font;
+    font-size: 0.8rem;
+    color: $blanco;
+    height: 2.5rem;
+    margin: 1rem 0 4rem 0;
+    background-color: $verde-oscuro;
+    border: none;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+
+     @media all and (min-width: 768px) {
+        width: 40%;
+        font-size: 1rem;
+         margin: 1rem 0 2rem 0;
+    }
+}
+
+.inline-desktop {
+    @media all and (min-width:1200px) {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+.email-box {
+
+    @media all and (min-width:1200px) {
+        display: inline-block;
+        width: 60%;
+   
+    }
+}
+
+.telephone-box {
+
+    @media all and (min-width:1200px) {
+        display: inline-block;
+        width: 40%;
+        padding-left: 3rem;
+
+    }
+}
+
+.email, .telephone {
+
+    @media all and (min-width:1200px) {
+        display: block;
+        width: 100%;
+    }
 }
 
