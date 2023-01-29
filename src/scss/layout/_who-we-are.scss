@@ -124,12 +124,17 @@
   font-size: 1.2rem;
   list-style: none;
 
+  &:visited{
+    color: $verde-oscuro;
+    }
+
   @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 1rem;
   }
+
 }
 
 .icons-reverse {
