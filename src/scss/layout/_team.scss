@@ -1,5 +1,3 @@
-
-
 .team-section {
     width: 100vw;
     display: flex;
@@ -67,6 +65,7 @@
 
 .container-weakness {
     @media (min-width: 768px) {
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -77,6 +76,7 @@
 
 .container-strength {
     @media (min-width: 768px) {
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;

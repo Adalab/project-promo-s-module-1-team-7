@@ -107,6 +107,9 @@
 
 
 .email-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media all and (min-width:1200px) {
         display: inline-block;
@@ -116,6 +119,9 @@
 }
 
 .telephone-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media all and (min-width:1200px) {
         display: inline-block;
